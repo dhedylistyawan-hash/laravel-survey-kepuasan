@@ -1,0 +1,72 @@
+# Production .gitignore
+# File-file yang tidak boleh diupload ke production
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Logs
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Cache
+bootstrap/cache/*
+!bootstrap/cache/.gitkeep
+
+# Storage
+storage/app/public/*
+!storage/app/public/.gitkeep
+
+# Backups
+backups/*
+!backups/.gitkeep
+
+# Node modules (jika ada)
+node_modules/
+
+# Build files
+public/build/
+public/mix-manifest.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Composer
+vendor/
+
+# Testing
+.phpunit.result.cache
+coverage/
+
+# Laravel specific
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+
+# Database
+*.sql
+*.sqlite
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+
+# Deployment scripts (opsional)
+deploy.sh
+deployment-checklist.md
