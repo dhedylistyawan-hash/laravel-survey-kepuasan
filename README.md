@@ -143,8 +143,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Kontak
 
-- **Developer:** [Your Name]
-- **Email:** [your.email@domain.com]
+- **Developer:** [Mas Dhed]
+- **Email:** [dhedy.listyawan@bmkg.go.id]
 - **Project Link:** [https://github.com/yourusername/survey-kepuasan](https://github.com/yourusername/survey-kepuasan)
 
 ## 🙏 Acknowledgments
